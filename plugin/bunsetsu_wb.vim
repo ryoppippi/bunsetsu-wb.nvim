@@ -1,2 +1,2 @@
-command! -nargs=0 BunSetsu call bunsetsu_wb#bunsetsu()
+" command! -nargs=0 Bunsetsu call bunsetsu_wb#bunsetsu()
 
