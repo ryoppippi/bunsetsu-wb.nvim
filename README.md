@@ -1,5 +1,8 @@
 # Bunsetsu-wb.nvim
 
+![screen](https://user-images.githubusercontent.com/1560508/222988065-3ac14333-2b7d-4380-b258-d78303516d71.gif)
+
+
 Bunsetsu-wb.nvimは[Bunsetsu.vim](https://github.com/ryoppippi/bunsetsu.vim)を`w`,`e`,`b`と自然に使うためのインテグレーションプラグインです。
 
 
