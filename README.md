@@ -30,7 +30,8 @@ return {
       custom_textobjects = {
         ["w"] = function()
           local CWORD = require("bunsetsu_wb").getCWORD()
-          return { from = CWORD.col, to = CWORD.colend }
+          local line = vim.fn.line(".")
+          return { from = { line = line, col = CWORD.col }, to = { line = line, col = CWORD.colend } }
         end,
       },
     })
