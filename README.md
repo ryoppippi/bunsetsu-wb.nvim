@@ -1,5 +1,7 @@
 # Bunsetsu-wb.nvim
 
+*これは[vim駅伝](https://vim-jp.org/ekiden/)3/6の* ***記事*** *です*
+
 ![screen](https://user-images.githubusercontent.com/1560508/222988065-3ac14333-2b7d-4380-b258-d78303516d71.gif)
 
 
@@ -23,12 +25,12 @@ return {
     { "vim-denops/denops.vim" },
     { "yuki-yano/denops-lazy.nvim" },
     { "echasnovski/mini.ai", version = "*" },
-    { "https://github.com/uga-rosa/utf8.nvim" }
+    { "uga-rosa/utf8.nvim" }
   },
   keys = {
     { "w", function() require("bunsetsu_wb").w() end, { "n", "v" }},
-    { "e", function() require("bunsetsu_wb").e() end, { "n", "v" }},
-    -- { "b", function() require("bunsetsu_wb").b() end, { "n", "v" }},
+    { "b", function() require("bunsetsu_wb").b() end, { "n", "v" }},
+    -- { "e", function() require("bunsetsu_wb").e() end, { "n", "v" }},
   },
   init = function()
     require("mini.ai").setup({
